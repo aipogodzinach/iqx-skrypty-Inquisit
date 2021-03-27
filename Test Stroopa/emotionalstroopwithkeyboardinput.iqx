@@ -1,0 +1,1239 @@
+﻿
+<parameters>
+/fixationcrosspresentationtime = 500
+/keyred = 32
+/redlabel = "d"
+/keygreen = 33
+/greenlabel = "f"
+/keyblue = 36
+/bluelabel = "j"
+/keyyellow = 37
+/yellowlabel = "k"
+</parameters>
+
+***********************************
+Aggression Words | ogólnoseksualne łagodne
+***********************************
+
+<item aggression>
+/1 = "wilgotna"
+/2 = "pieścić"
+/3 = "rozbierać"
+/4 = "seks"
+/5 = "rozebrana"
+/6 = "kusić"
+/7 = "jęczeć"
+/8 = "ssać"
+/9 = "orgazm"
+/10 = "pośladki"
+/11 = "podniecać"
+/12 = "biust"
+/13 = "dziewica"
+/14 = "lizać"
+/15 = "pocałunek"
+</item>
+
+***********************************
+Positive Words | dziecięce - dziewczynki
+***********************************
+
+<item positivewords>
+/1 = "szparka"
+/2 = "cipcia"
+/3 = "laleczka"
+/4 = "dziurka"
+/5 = "słodka"
+/6 = "dziewczynka"
+/7 = "sisia"
+/8 = "panieneczka"
+/9 = "panienka"
+/10 = "warkoczyki"
+/11 = "figlarka"
+/12 = "smarkatka"
+/13 = "niewinna"
+/14 = "córeczka"
+/15 = "księżniczka"
+</item>
+
+***********************************
+Negative Words | dziecięcie - chłopcy
+***********************************
+
+<item negativewords>
+/1 = "chłopczyk"
+/2 = "chłopaczek"
+/3 = "smarkacz"
+/4 = "siusiak"
+/5 = "małolat"
+/6 = "malec"
+/7 = "siusiumajtek"
+/8 = "zależny"
+/9 = "niewinny"
+/10 = "smarkaty"
+/11 = "chłoptaś"
+/12 = "gówniarz"
+/13 = "łobuz"
+/14 = "szczeniak"
+/15 = "synuś"
+</item>
+
+***********************************
+New | ogólnoseksualne - wulgarne
+***********************************
+
+<item new>
+/1 = "cipa"
+/2 = "oral"
+/3 = "anal"
+/4 = "mokra"
+/5 = "cycki"
+/6 = "dupa"
+/7 = "ruchać"
+/8 = "posuwać"
+/9 = "szpara"
+/10 = "walić"
+/11 = "spuścić"
+/12 = "pieprzyć"
+/13 = "rżnąć"
+/14 = "kutas"
+/15 = "dymać"
+</item>
+
+***********************************
+New2 | ogólnodziecięce
+***********************************
+
+<item new2>
+/1 = "pupa"
+/2 = "dzieci"
+/3 = "przedszkolaczek"
+/4 = "zabawa"
+/5 = "tajemnica"
+/6 = "rączki"
+/7 = "myszka"
+/8 = "maluch"
+/9 = "kolanka"
+/10 = "zabawki"
+/11 = "dzieciak"
+/12 = "niewinność"
+/13 = "sekret"
+/14 = "tulić"
+/15 = "kicia"
+</item>
+
+***********************************
+New3
+***********************************
+
+<item new3>
+/1 = "tablica"
+/2 = "samochód"
+/3 = "motocykl"
+/4 = "zdjęcia"
+/5 = "mikrofalówka"
+/6 = "toster"
+/7 = "czajnik"
+/8 = "okulary"
+/9 = "segregator"
+/10 = "komputer"
+/11 = "dysk"
+/12 = "szalik"
+/13 = "kamyk"
+/14 = "projektor"
+/15 = "atlas"
+</item>
+
+***********************************
+New4
+***********************************
+
+<item new4>
+/1 = "skaner"
+/2 = "album"
+/3 = "domofon"
+/4 = "kabel"
+/5 = "odkurzacz"
+/6 = "uniwersytet"
+/7 = "szpital"
+/8 = "cegła"
+/9 = "abonament"
+/10 = "rachunek"
+/11 = "silnik"
+/12 = "głośniki"
+/13 = "szyszka"
+/14 = "góry"
+/15 = "filmy"
+</item>
+
+***********************************
+New5
+***********************************
+
+<item new5>
+/1 = "turkusowy"
+/2 = "kawowy"
+/3 = "bordowy"
+/4 = "kremowy"
+/5 = "miedziany"
+/6 = "musztardowy"
+/7 = "oliwkowy"
+/8 = "piaskowy"
+/9 = "popielaty"
+/10 = "rudy"
+/11 = "wrzosowy"
+/12 = "hebanowy"
+/13 = "atramentowy"
+/14 = "bananowy"
+/15 = "brzoskwiniowy"
+</item>
+
+***********************************
+New6
+***********************************
+
+<item new6>
+/1 = "drzewo"
+/2 = "ulica"
+/3 = "teatr"
+/4 = "opera"
+/5 = "poduszka"
+/6 = "plakat"
+/7 = "płot"
+/8 = "droga"
+/9 = "brzoza"
+/10 = "reflektor"
+/11 = "szyny"
+/12 = "balkon"
+/13 = "ogród"
+/14 = "zegarek"
+/15 = "ciasto"
+</item>
+
+***********************************
+New7
+***********************************
+
+<item new7>
+/1 = "dach"
+/2 = "płytki"
+/3 = "most"
+/4 = "fotel"
+/5 = "pufa"
+/6 = "dąb"
+/7 = "sosna"
+/8 = "koncert"
+/9 = "jabłko"
+/10 = "naklejka"
+/11 = "ogłoszenie"
+/12 = "prąd"
+/13 = "gniazdo"
+/14 = "kosz"
+/15 = "ładowarka"
+</item>
+
+***********************************
+Neutral Words
+***********************************
+
+<item neutralwords>
+/1 = "drzwi"
+/2 = "grupa"
+/3 = "krzesło"
+/4 = "telefon"
+/5 = "pies"
+/6 = "kot"
+/7 = "sofa"
+/8 = "torba"
+/9 = "dziennik"
+/10 = "gazeta"
+/11 = "jedzenie"
+/12 = "piekarnik"
+/13 = "podłoga"
+/14 = "zakupy"
+/15 = "parasol"
+</item>
+
+***********************************
+ColorWords
+***********************************
+
+<item colorwords>
+/1 ="fioletowy"
+/2 ="szary"
+/3 ="szmaragdowy"
+/4 ="różowy"	
+/5 = "pomarańczowy"
+/6 = "szkarłatny"
+/7 = "kasztanowy"
+/8 = "karmazynowy"
+/9 = "biały"
+/10 = "czarny"
+/11 = "cyjan"
+/12 = "brązowy"
+/13 = "cynowy"
+/14 = "złoty"
+/15 = "srebny"
+</item>
+
+***********************************
+PracticeWords
+***********************************
+
+<item practicewords>
+/1 = "jeden"
+/2 = "dwa"
+/3 = "trzy"
+/4 = "cztery"
+/5 = "pięć"
+/6 = "sześć"
+/7 = "siedem"
+/8 = "osiem"
+/9 = "dziewięć"
+/10 = "dziesięć"
+</item>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	EDITABLE INSTRUCTIONS: change instructions here
+**************************************************************************************************************
+**************************************************************************************************************
+<instruct>
+/ fontstyle = ("Arial", 2.8%, true, false, false, false, 5, 1)
+/ txcolor = black
+</instruct>
+
+<htmlpage wprowadzenie>
+/ file = "wprowadzenie.htm"
+</htmlpage>
+
+<htmlpage intro>
+/ file = "EmotionalStroopInstructions1.htm"
+</htmlpage>
+
+<htmlpage uwaga>
+/ file = "uwaga.htm"
+</htmlpage>
+
+<htmlpage test>
+/ file = "EmotionalStroopInstructions2.htm"
+</htmlpage>
+
+<htmlpage end> 
+/ file = "end.html"
+</htmlpage>
+
+
+*******************************
+General Helper Instructions
+******************************
+
+<text getReady>
+/items = ("Przygotuj się:
+~n<%expressions.buttoninstruct2%>")
+/ fontstyle = ("Arial", 3.00%, false, false, false, false, 5, 1)
+/ size = (80%, 40%)
+</text>
+
+***********************************************************
+these instructions will be run if the script is
+run on a touchscreen
+***********************************************************
+
+<text touchscreenInstruct1>
+/ items = ("General Note on Touchscreen Usage
+ for this Task:")
+/ fontstyle = ("Arial", 5%, true, false, false, false, 5, 1)
+/ position = (50%, 20%)
+/ size = (80%, 20%)
+/ vjustify = center
+</text>
+
+<text touchscreenInstruct2>
+/ items = ("Response buttons/keys are at the bottom of the screen")
+
+ 
+
+/ fontstyle = ("Arial", 3%, true, false, false, false, 5, 1)
+/ position = (50%, 50%)
+/ size = (70%, 30%)
+/ vjustify = center
+</text>
+
+****************************************************************************************************
+general instruction expressions: adjust the instruction text depending on device used to run script
+****************************************************************************************************
+<expressions>
+/buttoninstruct1 = if (computer.touch && !computer.haskeyboard) {"response buttons";} else {"keys on your keyboard";}
+/buttoninstruct2 = if (computer.touch && !computer.haskeyboard) {
+						"Umieść swoje palce na klawiszach d, f, j, k";} 
+				   else {
+						"Umieść swoje palce na klawiszach d, f, j, k";}
+</expressions>
+
+
+**************************************************************************************************************
+				!!!REMAINING CODE: Customize after careful consideration only!!!
+**************************************************************************************************************
+
+
+**************************************************************************************************************
+**************************************************************************************************************
+	DEFAULTS
+**************************************************************************************************************
+**************************************************************************************************************
+script requires Inquisit 5.0.7.0 or higher
+
+<defaults>
+/canvasaspectratio = (4,3)
+/minimumversion = "5.0.7.0"
+/ screencolor = white
+/ fontstyle = ("Arial", 6.00%, true, false, false, false, 5, 1)
+/ txbgcolor = white
+/ txcolor = black
+/ inputdevice = keyboard
+</defaults>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	DATA
+**************************************************************************************************************
+**************************************************************************************************************
+
+Note: data file explanations under User Manual Information at the top
+
+********************
+raw data
+********************		
+
+<data>
+/separatefiles = true 
+/ columns = (build, computer.platform, date time subject blocknum blockcode trialnum trialcode values.target values.color  
+			response correct latency)
+</data>
+
+********************
+summary data
+********************
+
+<summarydata>
+/columns = (script.startdate script.starttime script.subjectid script.groupid script.elapsedtime computer.platform values.completed
+			expressions.meanrt_neu expressions.meanrt_agg expressions.meanrt_new expressions.meanrt_new2 expressions.meanrt_new3 expressions.meanrt_new4 expressions.meanrt_new5 expressions.meanrt_new6 expressions.meanrt_new7 expressions.meanrt_col expressions.meanrt_neg expressions.meanrt_pos
+			expressions.bias_agg expressions.bias_new expressions.bias_new2 expressions.bias_new3 expressions.bias_new4 expressions.bias_new5 expressions.bias_new6 expressions.bias_new7 expressions.bias_col expressions.bias_neg expressions.bias_pos
+			expressions.perccorrect_neu expressions.perccorrect_new expressions.perccorrect_new2 expressions.perccorrect_new3 expressions.perccorrect_new4 expressions.perccorrect_new5 expressions.perccorrect_new6 expressions.perccorrect_new7 expressions.perccorrect_agg expressions.perccorrect_col expressions.perccorrect_neg
+			expressions.perccorrect_pos)
+/ separatefiles = true
+</summarydata>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	VALUES: automatically updated
+*******************************************************************************************************************
+*******************************************************************************************************************
+/completed:											0 = script was not completed (prematurely aborted); 1 = script was completed (all conditions run)
+
+/target:											contains the current target word
+/color:												contains the color of the current target word
+/correct:											1 = correct; 0 = incorrect
+/correct_aggressionwords - /correct_colorwords:		sum up the correct responses in each category	
+/sumRT_Agg - /sumRT_Col:							sum up the latency of correct responses for each category
+
+<values>
+/completed = 0
+/target = 0
+/color = 0
+/correct = 0
+/correct_aggressionwords = 0
+/correct_negativewords = 0
+/correct_neutralwords = 0
+/correct_positivewords = 0
+/correct_colorwords = 0
+/correct_new = 0
+/correct_new2 = 0
+/correct_new3 = 0
+/correct_new4 = 0
+/correct_new5 = 0
+/correct_new6 = 0
+/correct_new7 = 0
+
+/sumRT_Agg = 0
+/sumRT_Neg = 0
+/sumRT_Neu = 0
+/sumRT_Pos = 0
+/sumRT_Col = 0
+/sumRT_new = 0
+/sumRT_new2 = 0
+/sumRT_new3 = 0
+/sumRT_new4 = 0
+/sumRT_new5 = 0
+/sumRT_new6 = 0
+/sumRT_new7 = 0
+</values>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	EXPRESSIONS
+*******************************************************************************************************************
+*******************************************************************************************************************
+/percCorrect_Agg-
+/percCorrect_Pos:		percent correct for all 5 categories
+
+/meanRT_Agg-
+/meanRT_Col :			mean latencies for correct responses for all 5 categories separately
+
+/Bias_Agg-
+/Bias_Col:				Bias Scores: Difference between mean latency (only for correct responses) in category 
+						Aggression, Color, Positive Words, Negative Words and Neutral Word condition
+
+<expressions>
+/percCorrect_Agg = (values.correct_aggressionwords/trial.aggression.trialcount) * 100
+/percCorrect_Neg = (values.correct_negativewords/trial.negativeword.trialcount) * 100
+/percCorrect_Neu = (values.correct_neutralwords/trial.neutralword.trialcount) * 100
+/percCorrect_Col = (values.correct_colorwords/trial.colorword.trialcount) * 100
+/percCorrect_Pos = (values.correct_positivewords/trial.positiveword.trialcount) * 100
+/percCorrect_new = (values.correct_new/trial.new.trialcount) * 100
+/percCorrect_new2 = (values.correct_new2/trial.new2.trialcount) * 100
+/percCorrect_new3 = (values.correct_new3/trial.new3.trialcount) * 100
+/percCorrect_new4 = (values.correct_new4/trial.new4.trialcount) * 100
+/percCorrect_new5 = (values.correct_new5/trial.new5.trialcount) * 100
+/percCorrect_new6 = (values.correct_new6/trial.new6.trialcount) * 100
+/percCorrect_new7 = (values.correct_new7/trial.new7.trialcount) * 100
+
+/meanRT_Agg = values.sumrt_agg/values.correct_aggressionwords
+/meanRT_Neg = values.sumrt_neg/values.correct_negativewords
+/meanRT_Neu = values.sumrt_neu/values.correct_neutralwords
+/meanRT_Pos = values.sumrt_pos/values.correct_positivewords
+/meanRT_Col = values.sumrt_col/values.correct_colorwords
+/meanRT_new = values.sumrt_new/values.correct_new
+/meanRT_new2 = values.sumrt_new2/values.correct_new2
+/meanRT_new3 = values.sumrt_new3/values.correct_new3
+/meanRT_new4 = values.sumrt_new4/values.correct_new4
+/meanRT_new5 = values.sumrt_new5/values.correct_new5
+/meanRT_new6 = values.sumrt_new6/values.correct_new6
+/meanRT_new7 = values.sumrt_new7/values.correct_new7
+
+/Bias_Agg = expressions.meanrt_agg - expressions.meanrt_neu
+/Bias_Neg = expressions.meanrt_neg - expressions.meanrt_neu
+/Bias_Pos = expressions.meanrt_pos - expressions.meanrt_neu
+/Bias_Col = expressions.meanrt_col - expressions.meanrt_neu
+/Bias_new = expressions.meanrt_new - expressions.meanrt_neu
+/Bias_new2 = expressions.meanrt_new2 - expressions.meanrt_neu
+/Bias_new3 = expressions.meanrt_new3 - expressions.meanrt_neu
+/Bias_new4 = expressions.meanrt_new4 - expressions.meanrt_neu
+/Bias_new5 = expressions.meanrt_new5 - expressions.meanrt_neu
+/Bias_new6 = expressions.meanrt_new6 - expressions.meanrt_neu
+/Bias_new7 = expressions.meanrt_new7 - expressions.meanrt_neu
+</expressions>
+
+**************************************************************************************************************
+**************************************************************************************************************
+	INSTRUCTIONS
+**************************************************************************************************************
+**************************************************************************************************************
+
+*************************************
+General Helper Instruction Trials
+*************************************
+
+This trial is used when participants are asked to place their fingers on specific response
+buttons. On the touchscreen, this trial presents the (inactive) response buttons to the participants.
+<trial getReady>
+/ stimulusframes = [1 = getReady]
+/ trialduration = 7000
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/ beginresponsetime = 7000
+/ errormessage = false
+/ recorddata = false
+</trial>
+
+Note: this trial is only run if the script is run on a Touchscreen
+<trial touchscreenInstruct>
+/ skip = [
+	!computer.touch || computer.haskeyboard;
+]
+/ stimulusframes = [1 = touchscreenInstruct1, touchscreenInstruct2]
+/ validresponse = (57)
+/ recorddata = false
+</trial>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	STIMULI
+*******************************************************************************************************************
+*******************************************************************************************************************
+
+<text Aggression>
+/ items = aggression
+/select = noreplace
+/onprepare = [text.aggression.textcolor = list.aggression_selectcolor.nextvalue]
+</text>
+
+<text PositiveWord>
+/ items = positivewords
+/select = noreplace
+/onprepare = [text.PositiveWord.textcolor = list.PositiveWord_selectcolor.nextvalue]
+</text>
+
+<text NegativeWord>
+/ items = negativewords
+/select = noreplace
+/onprepare = [text.NegativeWord.textcolor = list.NegativeWord_selectcolor.nextvalue]
+</text>
+
+<text NeutralWord>
+/ items = neutralwords
+/select = noreplace
+/onprepare = [text.NeutralWord.textcolor = list.NeutralWord_selectcolor.nextvalue]
+</text>
+
+<text colorword>
+/items = colorwords
+/onprepare = [text.colorword.textcolor = list.colorword_selectcolor.nextvalue]
+</text>
+
+<text practiceword>
+/items = practicewords
+/onprepare = [text.practiceword.textcolor = list.practiceword_selectcolor.nextvalue]
+</text>
+
+<text new>
+/items = new
+/onprepare = [text.new.textcolor = list.new_selectcolor.nextvalue]
+</text>
+
+<text new2>
+/items = new2
+/onprepare = [text.new2.textcolor = list.new2_selectcolor.nextvalue]
+</text>
+
+<text new3>
+/items = new3
+/onprepare = [text.new3.textcolor = list.new3_selectcolor.nextvalue]
+</text>
+
+<text new4>
+/items = new4
+/onprepare = [text.new4.textcolor = list.new4_selectcolor.nextvalue]
+</text>
+
+<text new5>
+/items = new5
+/onprepare = [text.new5.textcolor = list.new5_selectcolor.nextvalue]
+</text>
+
+<text new6>
+/items = new6
+/onprepare = [text.new6.textcolor = list.new6_selectcolor.nextvalue]
+</text>
+
+<text new7>
+/items = new7
+/onprepare = [text.new7.textcolor = list.new7_selectcolor.nextvalue]
+</text>
+
+***********************************
+Other Stimuli
+***********************************
+<text x>
+/ items = ("X")
+/ position = (50, 60)
+/ fontstyle = ("Arial", 7%, true, false, false, false, 5, 0)
+/txcolor = red 
+</text>
+
+<text fixation>
+/ items = ("+")
+/ color = black
+</text>
+
+<text redreminder>
+/ items = ("<%parameters.redlabel%> = czerwony")
+/ position = (20%, 20%)
+/ fontstyle = ("Arial", 3%, true, false, false, false, 5, 0)
+/ erase = false
+/ txcolor = darkgray
+</text>
+
+<text greenreminder>
+/ items = ("<%parameters.greenlabel%> = zielony")
+/ position = (40%, 20%)
+/ fontstyle = ("Arial", 3%, true, false, false, false, 5, 0)
+/ erase = false
+/ txcolor = darkgray
+</text>
+
+<text bluereminder>
+/ items = ("<%parameters.bluelabel%> = niebieski")
+/ position = (60%, 20%)
+/ fontstyle = ("Arial", 3%, true, false, false, false, 5, 0)
+/ erase = false
+/ txcolor = darkgray
+</text>
+
+<text yellowreminder>
+/ items = ("<%parameters.yellowlabel%> = żółty")
+/ position = (80%, 20%)
+/ fontstyle = ("Arial", 3%, true, false, false, false, 5, 0)
+/ erase = false
+/ txcolor = darkgray
+</text>
+
+<text ready>
+/items=("Press the space bar when you are ready to start")
+/color = (100,100,100)
+/txbgcolor = transparent
+/size = (400, 200)
+/ fontstyle = ("Arial", 3%, true, false, false, false, 5, 1)
+</text>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	LISTS
+*******************************************************************************************************************
+*******************************************************************************************************************
+
+<list Aggression_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list PositiveWord_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list NegativeWord_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list NeutralWord_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list colorword_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list practiceword_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list new_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list new2_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list new3_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list new4_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list new5_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list new6_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+<list new7_selectcolor>
+/items = (red, green, blue, yellow)
+/replace = false
+</list>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	PRACTICE TRIALS
+*******************************************************************************************************************
+*******************************************************************************************************************
+<trial practiceword>
+/ontrialbegin = [
+	trial.practiceword.insertstimulustime(text.practiceword, parameters.fixationcrosspresentationtime);
+]
+/ontrialend = [
+	trial.practiceword.resetstimulusframes();
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/recorddata = true
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.practiceword.textcolor == yellow && trial.practiceword.response == parameters.keyyellow) ||
+							(text.practiceword.textcolor == red && trial.practiceword.response == parameters.keyred) ||
+							(text.practiceword.textcolor == blue && trial.practiceword.response == parameters.keyblue) ||
+							(text.practiceword.textcolor == green && trial.practiceword.response == parameters.keygreen)]
+/ontrialend = [
+	if (text.practiceword.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.practiceword.textcolor == red) 
+		values.color = "red"
+	else if (text.practiceword.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	values.target = text.practiceword.currentitem;
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	TRIALS
+*******************************************************************************************************************
+*******************************************************************************************************************
+
+By default, trials report errorfeedback. To remove errorfeedback remove the following
+code from all trials:
+/errormessage = true(x, 400)
+
+*********************************************
+Condition: Aggression Words
+*********************************************
+<trial Aggression> 
+/ontrialbegin = [
+	trial.Aggression.insertstimulustime(text.Aggression, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.aggression.textcolor == yellow && trial.aggression.response == parameters.keyyellow) ||
+							(text.aggression.textcolor == red && trial.aggression.response == parameters.keyred) ||
+							(text.aggression.textcolor == blue && trial.aggression.response == parameters.keyblue) ||
+							(text.aggression.textcolor == green && trial.aggression.response == parameters.keygreen)]
+/ontrialend = [
+	trial.Aggression.resetstimulusframes();
+	values.target = text.aggression.currentitem;
+	if (text.aggression.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.aggression.textcolor == red) 
+		values.color = "red"
+	else if (text.aggression.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.aggression.correct) {
+		values.correct_aggressionwords += 1; 
+		values.sumrt_agg += trial.aggression.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+
+*********************************************
+Condition: new
+*********************************************
+<trial new> 
+/ontrialbegin = [
+	trial.new.insertstimulustime(text.new, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.new.textcolor == yellow && trial.new.response == parameters.keyyellow) ||
+							(text.new.textcolor == red && trial.new.response == parameters.keyred) ||
+							(text.new.textcolor == blue && trial.new.response == parameters.keyblue) ||
+							(text.new.textcolor == green && trial.new.response == parameters.keygreen)]
+/ontrialend = [
+	trial.new.resetstimulusframes();
+	values.target = text.new.currentitem;
+	if (text.new.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.new.textcolor == red) 
+		values.color = "red"
+	else if (text.new.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.new.correct) {
+		values.correct_new += 1; 
+		values.sumrt_new += trial.new.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: new2
+*********************************************
+<trial new2> 
+/ontrialbegin = [
+	trial.new2.insertstimulustime(text.new2, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.new2.textcolor == yellow && trial.new2.response == parameters.keyyellow) ||
+							(text.new2.textcolor == red && trial.new2.response == parameters.keyred) ||
+							(text.new2.textcolor == blue && trial.new2.response == parameters.keyblue) ||
+							(text.new2.textcolor == green && trial.new2.response == parameters.keygreen)]
+/ontrialend = [
+	trial.new2.resetstimulusframes();
+	values.target = text.new2.currentitem;
+	if (text.new2.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.new2.textcolor == red) 
+		values.color = "red"
+	else if (text.new2.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.new2.correct) {
+		values.correct_new2 += 1; 
+		values.sumrt_new2 += trial.new2.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: new3
+*********************************************
+<trial new3> 
+/ontrialbegin = [
+	trial.new3.insertstimulustime(text.new3, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.new3.textcolor == yellow && trial.new3.response == parameters.keyyellow) ||
+							(text.new3.textcolor == red && trial.new3.response == parameters.keyred) ||
+							(text.new3.textcolor == blue && trial.new3.response == parameters.keyblue) ||
+							(text.new3.textcolor == green && trial.new3.response == parameters.keygreen)]
+/ontrialend = [
+	trial.new3.resetstimulusframes();
+	values.target = text.new3.currentitem;
+	if (text.new3.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.new3.textcolor == red) 
+		values.color = "red"
+	else if (text.new3.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.new3.correct) {
+		values.correct_new3 += 1; 
+		values.sumrt_new3 += trial.new3.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: new4
+*********************************************
+<trial new4> 
+/ontrialbegin = [
+	trial.new4.insertstimulustime(text.new4, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.new4.textcolor == yellow && trial.new4.response == parameters.keyyellow) ||
+							(text.new4.textcolor == red && trial.new4.response == parameters.keyred) ||
+							(text.new4.textcolor == blue && trial.new4.response == parameters.keyblue) ||
+							(text.new4.textcolor == green && trial.new4.response == parameters.keygreen)]
+/ontrialend = [
+	trial.new4.resetstimulusframes();
+	values.target = text.new4.currentitem;
+	if (text.new4.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.new4.textcolor == red) 
+		values.color = "red"
+	else if (text.new4.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.new4.correct) {
+		values.correct_new4 += 1; 
+		values.sumrt_new4 += trial.new4.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: new5
+*********************************************
+<trial new5> 
+/ontrialbegin = [
+	trial.new5.insertstimulustime(text.new5, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.new5.textcolor == yellow && trial.new5.response == parameters.keyyellow) ||
+							(text.new5.textcolor == red && trial.new5.response == parameters.keyred) ||
+							(text.new5.textcolor == blue && trial.new5.response == parameters.keyblue) ||
+							(text.new5.textcolor == green && trial.new5.response == parameters.keygreen)]
+/ontrialend = [
+	trial.new5.resetstimulusframes();
+	values.target = text.new5.currentitem;
+	if (text.new5.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.new5.textcolor == red) 
+		values.color = "red"
+	else if (text.new5.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.new5.correct) {
+		values.correct_new5 += 1; 
+		values.sumrt_new5 += trial.new5.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: new6
+*********************************************
+<trial new6> 
+/ontrialbegin = [
+	trial.new6.insertstimulustime(text.new6, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.new6.textcolor == yellow && trial.new6.response == parameters.keyyellow) ||
+							(text.new6.textcolor == red && trial.new6.response == parameters.keyred) ||
+							(text.new6.textcolor == blue && trial.new6.response == parameters.keyblue) ||
+							(text.new6.textcolor == green && trial.new6.response == parameters.keygreen)]
+/ontrialend = [
+	trial.new6.resetstimulusframes();
+	values.target = text.new6.currentitem;
+	if (text.new6.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.new6.textcolor == red) 
+		values.color = "red"
+	else if (text.new6.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.new6.correct) {
+		values.correct_new6 += 1; 
+		values.sumrt_new6 += trial.new6.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: new7
+*********************************************
+<trial new7> 
+/ontrialbegin = [
+	trial.new7.insertstimulustime(text.new7, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.new7.textcolor == yellow && trial.new7.response == parameters.keyyellow) ||
+							(text.new7.textcolor == red && trial.new7.response == parameters.keyred) ||
+							(text.new7.textcolor == blue && trial.new7.response == parameters.keyblue) ||
+							(text.new7.textcolor == green && trial.new7.response == parameters.keygreen)]
+/ontrialend = [
+	trial.new7.resetstimulusframes();
+	values.target = text.new7.currentitem;
+	if (text.new7.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.new7.textcolor == red) 
+		values.color = "red"
+	else if (text.new7.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.new7.correct) {
+		values.correct_new7 += 1; 
+		values.sumrt_new7 += trial.new7.latency};
+]
+/ errormessage = true(x, 400)
+</trial>
+
+
+
+*********************************************
+Condition: Positive Words
+*********************************************
+<trial PositiveWord> 
+/ontrialbegin = [
+	trial.PositiveWord.insertstimulustime(text.PositiveWord, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.PositiveWord.textcolor == yellow && trial.PositiveWord.response == parameters.keyyellow) ||
+							(text.PositiveWord.textcolor == red && trial.PositiveWord.response == parameters.keyred) ||
+							(text.PositiveWord.textcolor == blue && trial.PositiveWord.response == parameters.keyblue) ||
+							(text.PositiveWord.textcolor == green && trial.PositiveWord.response == parameters.keygreen)]
+/ontrialend = [
+	trial.PositiveWord.resetstimulusframes();
+	values.target = text.PositiveWord.currentitem;
+	if (text.PositiveWord.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.PositiveWord.textcolor == red) 
+		values.color = "red"
+	else if (text.PositiveWord.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.PositiveWord.correct) {
+		values.correct_positivewords += 1; 
+		values.sumrt_pos += trial.positiveword.latency;}
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: Negative Words
+*********************************************
+<trial NegativeWord> 
+/ontrialbegin = [
+	trial.NegativeWord.insertstimulustime(text.NegativeWord, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.NegativeWord.textcolor == yellow && trial.NegativeWord.response == parameters.keyyellow) ||
+							(text.NegativeWord.textcolor == red && trial.NegativeWord.response == parameters.keyred) ||
+							(text.NegativeWord.textcolor == blue && trial.NegativeWord.response == parameters.keyblue) ||
+							(text.NegativeWord.textcolor == green && trial.NegativeWord.response == parameters.keygreen)]
+/ontrialend = [
+	trial.NegativeWord.resetstimulusframes();
+	values.target = text.NegativeWord.currentitem;
+	if (text.NegativeWord.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.NegativeWord.textcolor == red) 
+		values.color = "red"
+	else if (text.NegativeWord.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+	
+	if (trial.NegativeWord.correct) {values.correct_negativewords += 1; values.sumrt_neg += trial.negativeword.latency}
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: Neutral Words
+*********************************************
+<trial NeutralWord> 
+/ontrialbegin = [
+	trial.NeutralWord.insertstimulustime(text.NeutralWord, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.NeutralWord.textcolor == yellow && trial.NeutralWord.response == parameters.keyyellow) ||
+							(text.NeutralWord.textcolor == red && trial.NeutralWord.response == parameters.keyred) ||
+							(text.NeutralWord.textcolor == blue && trial.NeutralWord.response == parameters.keyblue) ||
+							(text.NeutralWord.textcolor == green && trial.NeutralWord.response == parameters.keygreen)]
+/ontrialend = [
+	trial.NeutralWord.resetstimulusframes();
+	values.target = text.NeutralWord.currentitem;
+	
+	if (text.NeutralWord.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.NeutralWord.textcolor == red) 
+		values.color = "red"
+	else if (text.NeutralWord.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+		
+	if (trial.NeutralWord.correct) {
+		values.correct_neutralwords += 1; 
+		values.sumrt_neu += trial.neutralword.latency;}
+]
+/ errormessage = true(x, 400)
+</trial>
+
+*********************************************
+Condition: Color Words
+*********************************************
+<trial ColorWord>
+/ontrialbegin = [
+	trial.ColorWord.insertstimulustime(text.colorword, parameters.fixationcrosspresentationtime);
+]
+/stimulustimes = [0=fixation, redreminder, greenreminder, bluereminder, yellowreminder]
+/ validresponse = (parameters.keyred, parameters.keygreen, parameters.keyblue, parameters.keyyellow)
+/iscorrectresponse = [		(text.ColorWord.textcolor == yellow && trial.ColorWord.response == parameters.keyyellow) ||
+							(text.ColorWord.textcolor == red && trial.ColorWord.response == parameters.keyred) ||
+							(text.ColorWord.textcolor == blue && trial.ColorWord.response == parameters.keyblue) ||
+							(text.ColorWord.textcolor == green && trial.ColorWord.response == parameters.keygreen)]
+/ontrialend = [
+	trial.ColorWord.resetstimulusframes();
+	values.target = text.ColorWord.currentitem;
+	if (text.ColorWord.textcolor == yellow) 
+		values.color = "yellow"
+	else if (text.ColorWord.textcolor == red) 
+		values.color = "red"
+	else if (text.ColorWord.textcolor == blue) 
+		values.color = "blue"
+	else 
+		values.color = "green";
+				
+	if (trial.ColorWord.correct) {
+		values.correct_colorwords += 1; 
+		values.sumrt_col += trial.colorword.latency;}
+]
+/ errormessage = true(x, 400)
+</trial>
+
+***********************************************
+Remaining trials
+***********************************************
+
+<trial ready>
+/stimulustimes = [0=ready]
+/correctresponse = (" ")
+/inputdevice = keyboard
+/recorddata = false
+</trial>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	BLOCKS
+*******************************************************************************************************************
+*******************************************************************************************************************
+
+<block StartInfo>
+/ trials = [1 = touchscreenInstruct]
+</block>
+
+<block Practice_EmotionalStroop>
+/preinstructions = (wprowadzenie, intro, uwaga)
+/ trials = [1 = getready; 2-11 = practiceword]
+</block>
+
+<block EmotionalStroop>
+/preinstructions =(test)
+/ trials = [1 = getready; 2-181 =noreplace(Aggression,PositiveWord,NegativeWord,NeutralWord,ColorWord,New,New2,New3,New4,New5,New6,New7)]
+</block>
+
+*******************************************************************************************************************
+*******************************************************************************************************************
+	EXPERIMENT
+*******************************************************************************************************************
+*******************************************************************************************************************
+
+<expt>
+/ blocks = [
+	1 = StartInfo;
+	2 = Practice_EmotionalStroop; 
+	3 = EmotionalStroop;]
+/ postinstructions = (end)
+/onexptend = [
+	values.completed = 1;
+]
+</expt>
+
+*******************************************************************************************************************
+												End of File
+*******************************************************************************************************************

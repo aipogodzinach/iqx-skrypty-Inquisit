@@ -1,0 +1,374 @@
+﻿*** Tile Position Variables ***
+<htmlpage wprowadzenie> 
+/ file = "wprowadzenie.htm"
+</htmlpage>
+
+<htmlpage new> 
+/ file = "new.htm"
+</htmlpage>
+
+<htmlpage new2> 
+/ file = "new2.htm"
+</htmlpage>
+
+<htmlpage end> 
+/ file = "end.html"
+</htmlpage>
+
+<values>
+/ x_big = 25%
+/ y_big = 80%
+/ x_mid = 25%
+/ y_mid = 70%
+/ x_small = 25%
+/ y_small = 60%
+/ x_big_backup = 0
+/ y_big_backup = 0
+/ x_mid_backup = 0
+/ y_mid_backup = 0
+/ x_small_backup = 0
+/ y_small_backup = 0
+</values>
+
+*** Some expressions ***
+
+<expressions>
+/ nmoves = trial.position.count - trial.illegal.count
+</expressions>
+
+*** Defaults ***
+
+<defaults>
+/ fontstyle = ("Verdana", 3.5%, false, false, false, false, 5, 0)
+/ minimumversion = "3.0.2.0"
+/ screencolor = white
+</defaults>
+
+*** Data ***
+
+<data>
+/ columns = [subject trialcode response latency expressions.nmoves trial.position.count trial.illegal.count trial.selectagain.count]
+</data>
+
+*** Experiment ***
+<expt>
+/ preinstructions = (wprowadzenie, new, new2)
+/ postinstructions = (end)
+/ blocks = [1=ToH]
+</expt>
+
+*** Blocks for the Tower ***
+
+<block ToH>
+/ trials = [1=tile]
+/ bgstim = (tower)
+</block>
+
+*** Trials for the Tower ***
+
+<trial tile>
+/ stimulusframes = [1=base, A, B, C, moves, illegalmoves, bigtile, midtile, smalltile, pos01, pos02, pos03]
+/ validresponse = (bigtile, midtile, smalltile)
+/ inputdevice = mouse
+/ responsetrial = (anyresponse, position)
+/ ontrialbegin = [values.x_big_backup = values.x_big; values.y_big_backup = values.y_big; values.x_mid_backup = values.x_mid; values.y_mid_backup = values.y_mid; values.x_small_backup = values.x_small; values.y_small_backup = values.y_small]
+/ branch = [if (trial.tile.response == "midtile" && shape.smalltile.hposition == shape.midtile.hposition) trial.selectagain]
+/ branch = [if (trial.tile.response == "bigtile" && shape.smalltile.hposition == shape.bigtile.hposition) trial.selectagain]
+/ branch = [if (trial.tile.response == "bigtile" && shape.midtile.hposition == shape.bigtile.hposition) trial.selectagain]
+</trial>
+
+*** Most of the Magic happens here ***
+
+<trial position>
+/ stimulusframes = [1=base, A, B, C, moves, illegalmoves, p01_bottom, p01_middle, p01_top, p02_bottom, p02_middle, p02_top, p03_bottom, p03_middle, p03_top, pos01, pos02, pos03, bigtile, midtile, smalltile]
+/ validresponse = (p01_bottom, p01_middle, p01_top, p02_bottom, p02_middle, p02_top, p03_bottom, p03_middle, p03_top)
+/ inputdevice = mouse
+/ responsetrial = (anyresponse, tile)
+/ ontrialbegin = [values.x_big_backup = values.x_big; values.y_big_backup = values.y_big; values.x_mid_backup = values.x_mid;values.y_mid_backup = values.y_mid;values.x_small_backup = values.x_small;values.y_small_backup = values.y_small]
+/ ontrialend = [if (trial.tile.response == "smalltile" && trial.position.response == "p01_bottom") values.x_small  = shape.p01_bottom.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p01_bottom") values.y_small  = shape.p01_bottom.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p01_middle") values.x_small = shape.p01_middle.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p01_middle") values.y_small = shape.p01_middle.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p01_top") values.x_small = shape.p01_top.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p01_top") values.y_small = shape.p01_top.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p02_bottom") values.x_small  = shape.p02_bottom.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p02_bottom") values.y_small  = shape.p02_bottom.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p02_middle") values.x_small = shape.p02_middle.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p02_middle") values.y_small = shape.p02_middle.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p02_top") values.x_small = shape.p02_top.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p02_top") values.y_small = shape.p02_top.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p03_bottom") values.x_small  = shape.p03_bottom.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p03_bottom") values.y_small  = shape.p03_bottom.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p03_middle") values.x_small = shape.p03_middle.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p03_middle") values.y_small = shape.p03_middle.vposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p03_top") values.x_small = shape.p03_top.hposition;
+if (trial.tile.response == "smalltile" && trial.position.response == "p03_top") values.y_small = shape.p03_top.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p01_bottom") values.x_mid = shape.p01_bottom.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p01_bottom") values.y_mid = shape.p01_bottom.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p01_middle") values.x_mid = shape.p01_middle.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p01_middle") values.y_mid = shape.p01_middle.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p01_top") values.x_mid = shape.p01_top.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p01_top") values.y_mid = shape.p01_top.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p02_bottom") values.x_mid = shape.p02_bottom.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p02_bottom") values.y_mid = shape.p02_bottom.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p02_middle") values.x_mid = shape.p02_middle.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p02_middle") values.y_mid = shape.p02_middle.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p02_top") values.x_mid = shape.p02_top.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p02_top") values.y_mid = shape.p02_top.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p03_bottom") values.x_mid = shape.p03_bottom.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p03_bottom") values.y_mid = shape.p03_bottom.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p03_middle") values.x_mid = shape.p03_middle.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p03_middle") values.y_mid = shape.p03_middle.vposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p03_top") values.x_mid = shape.p03_top.hposition;
+if (trial.tile.response == "midtile" && trial.position.response == "p03_top") values.y_mid = shape.p03_top.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p01_bottom") values.x_big = shape.p01_bottom.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p01_bottom") values.y_big = shape.p01_bottom.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p01_middle") values.x_big = shape.p01_middle.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p01_middle") values.y_big = shape.p01_middle.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p01_top") values.x_big = shape.p01_top.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p01_top") values.y_big = shape.p01_top.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p02_bottom") values.x_big = shape.p02_bottom.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p02_bottom") values.y_big = shape.p02_bottom.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p02_middle") values.x_big = shape.p02_middle.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p02_middle") values.y_big = shape.p02_middle.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p02_top") values.x_big = shape.p02_top.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p02_top") values.y_big = shape.p02_top.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p03_bottom") values.x_big = shape.p03_bottom.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p03_bottom") values.y_big = shape.p03_bottom.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p03_middle") values.x_big = shape.p03_middle.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p03_middle") values.y_big = shape.p03_middle.vposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p03_top") values.x_big = shape.p03_top.hposition;
+if (trial.tile.response == "bigtile" && trial.position.response == "p03_top") values.y_big = shape.p03_top.vposition;]
+/ branch = [if (shape.bigtile.vposition != shape.p03_bottom.vposition) trial.illegal]
+/ branch = [if (shape.midtile.vposition == shape.p03_top.vposition) trial.illegal]
+/ branch = [if (shape.midtile.vposition == shape.p03_middle.vposition && shape.midtile.hposition != shape.bigtile.hposition) trial.illegal]
+/ branch = [if (shape.midtile.hposition != shape.smalltile.hposition && shape.bigtile.hposition != shape.smalltile.hposition && shape.smalltile.vposition == shape.p03_top.vposition) trial.illegal]
+/ branch = [if (shape.midtile.hposition == shape.smalltile.hposition && shape.midtile.vposition == shape.p03_bottom.vposition && shape.smalltile.vposition == shape.p03_top.vposition) trial.illegal]
+/ branch = [if (shape.bigtile.hposition == shape.smalltile.hposition && shape.midtile.hposition != shape.smalltile.hposition && shape.smalltile.vposition == shape.p03_top.vposition) trial.illegal]
+/ branch = [if (shape.midtile.hposition != shape.smalltile.hposition && shape.bigtile.hposition != shape.smalltile.hposition && shape.smalltile.vposition == shape.p03_middle.vposition) trial.illegal] 
+/ branch = [if (shape.bigtile.hposition == shape.midtile.hposition && shape.bigtile.vposition <= shape.midtile.vposition) trial.illegal]
+/ branch = [if (shape.bigtile.hposition == shape.smalltile.hposition && shape.bigtile.vposition <= shape.smalltile.vposition) trial.illegal]
+/ branch = [if (shape.midtile.hposition == shape.smalltile.hposition && shape.midtile.vposition <= shape.smalltile.vposition) trial.illegal]
+/ branch = [if (values.x_big_backup == values.x_big && values.y_big_backup == values.y_big && values.x_mid_backup == values.x_mid && values.y_mid_backup == values.y_mid &&  values.x_small_backup == values.x_small && values.y_small_backup == values.y_small) trial.illegal]
+/ branch = [if (values.x_small == shape.p03_top.hposition && values.y_small == shape.p03_top.vposition && values.x_mid == shape.p03_middle.hposition && values.y_mid == shape.p03_middle.vposition && values.x_big == shape.p03_bottom.hposition && values.y_big == shape.p03_bottom.vposition) trial.success]
+</trial>
+
+*** Utility Trials ***
+
+<trial illegal>
+/ stimulusframes = [1=base, A, B, C, illegal, pos01, pos02, pos03]
+/ validresponse = (noresponse)
+/ timeout = 1000
+/ responsetrial = (noresponse, tile)
+/ ontrialend = [values.x_big = values.x_big_backup; values.y_big = values.y_big_backup; values.x_mid = values.x_mid_backup; values.y_mid = values.y_mid_backup; values.x_small = values.x_small_backup; values.y_small = values.y_small_backup]
+/ recorddata = false
+</trial>
+
+<trial selectagain>
+/ stimulusframes = [1=base, A, B, C, selectagain, bigtile, midtile, smalltile, pos01, pos02, pos03]
+/ validresponse = (noresponse)
+/ timeout = 1000
+/ responsetrial = (noresponse, tile)
+/ ontrialend = [values.x_big = values.x_big_backup; values.y_big = values.y_big_backup; values.x_mid = values.x_mid_backup; values.y_mid = values.y_mid_backup; values.x_small = values.x_small_backup; values.y_small = values.y_small_backup]
+/ recorddata = false
+</trial>
+
+<trial success>
+/ stimulusframes = [1=base, A, B, C, success, smalltile, midtile, bigtile, pos01, pos02, pos03]
+/ validresponse = (noresponse)
+/ timeout = 3500
+/ recorddata = false
+</trial>
+
+*** Text Items ***
+
+<text Tower>
+/ items = ("Millisecond Software © Script for Tower of Hanoi")
+/ fontstyle = ("Verdana", 3%, false, false, true, false, 5, 0)
+/ position = (50%, 15%)
+/ txbgcolor = (transparent)
+</text>
+
+<text pos01>
+/ items = ("A")
+/ position = (25%, 95%)
+/ txbgcolor = (transparent)
+</text>
+
+<text pos02>
+/ items = ("B")
+/ position = (50%, 95%)
+/ txbgcolor = (transparent)
+</text>
+
+<text pos03>
+/ items = ("C")
+/ position = (75%, 95%)
+/ txbgcolor = (transparent)
+</text>
+
+<text moves>
+/ items = ("Liczba dozwolonych ruchów: <% expressions.nmoves %>")
+/ position = (50%, 25%)
+/ txcolor = (0, 255, 0)
+/ txbgcolor = (transparent)
+</text>
+
+<text illegalmoves>
+/ items = ("Liczba niedozwolonych ruchów: <% trial.illegal.trialcount %>")
+/ position = (50%, 30%)
+/ txcolor = (255, 0, 0)
+/ txbgcolor = (transparent)
+</text>
+
+<text illegal>
+/items = ("Niedozwolony ruch!")
+/ position = (50%, 30%)
+/ txcolor = (255, 0, 0)
+/ txbgcolor = (transparent)
+</text>
+
+<text selectagain>
+/items = ("Proszę wybrać inny drążek!")
+/ position = (50%, 30%)
+/ txcolor = (255, 0, 0)
+/ txbgcolor = (transparent)
+</text>
+
+<text success>
+/ items = ("Rozwiązano w <% expressions.nmoves %> ruchach. Gratulacje!")
+/ position = (50%, 30%)
+/ txbgcolor = (transparent)
+</text>
+
+*** Tiles for the Tower ***
+
+<shape bigtile>
+/shape = rectangle
+/ color = (255, 0, 0)
+/ size = (25%, 7%)
+/ hposition = values.x_big
+/ vposition = values.y_big
+</shape>
+
+<shape midtile>
+/shape = rectangle
+/ color = (0, 255, 0)
+/ size = (18%, 7%)
+/ hposition = values.x_mid
+/ vposition = values.y_mid
+</shape>
+
+<shape smalltile>
+/shape = rectangle
+/ color = (0, 0, 255)
+/ size = (11%, 7%)
+/ hposition = values.x_small
+/ vposition = values.y_small
+</shape>
+
+*** Placeholders for Selectable Tile Positions ***
+
+<shape p01_bottom>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 25%
+/ vposition = 80%
+</shape>
+
+<shape p01_middle>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 25%
+/ vposition = 70%
+</shape>
+
+<shape p01_top>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 25%
+/ vposition = 60%
+</shape>
+
+<shape p02_bottom>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 50%
+/ vposition = 80%
+</shape>
+
+<shape p02_middle>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 50%
+/ vposition = 70%
+</shape>
+
+<shape p02_top>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 50%
+/ vposition = 60%
+</shape>
+
+<shape p03_bottom>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 75%
+/ vposition = 80%
+</shape>
+
+<shape p03_middle>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 75%
+/ vposition = 70%
+</shape>
+
+<shape p03_top>
+/shape = rectangle
+/ color = (191, 96, 0)
+/ size = (4%, 7%)
+/ hposition = 75%
+/ vposition = 60%
+</shape>
+
+*** Some Eyecandy ***
+
+<shape base>
+/shape = rectangle
+/ color = (128, 64, 0)
+/ size = (80%, 6%)
+/ position = (50%, 89%)
+</shape>
+
+<shape A>
+/shape = rectangle
+/ color = (128, 64, 0)
+/ size = (4%, 40%)
+/ position = (25%, 69%)
+</shape>
+
+<shape B>
+/shape = rectangle
+/ color = (128, 64, 0)
+/ size = (4%, 40%)
+/ position = (50%, 69%)
+</shape>
+
+<shape C>
+/shape = rectangle
+/ color = (128, 64, 0)
+/ size = (4%, 40%)
+/ position = (75%, 69%)
+</shape>
+
+*** End of File ***
